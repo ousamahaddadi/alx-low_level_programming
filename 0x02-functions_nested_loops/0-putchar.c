@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * main: the first entry
+ * main - the first entry
  * Return: always 0
  */
 int main(void)
@@ -11,12 +11,12 @@ int main(void)
 
 	i = 0;
 
-	while(str[i])
+	while (str[i])
 	{
 		_putchar(str[i]);
 		i++;
 	}
 	_putchar('\n');
-	return 0;
+	return (0);
 }
 
